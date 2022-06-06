@@ -117,7 +117,7 @@ Ejecutamos en la terminal
 #### core/.env:
 pegamos  
 
-    SECRET_KEY=)@nuc8mylev)5mo&@h3#e602*b%7yb#()pxhkuxz=k8@_mytlz
+    SECRET_KEY=s@%(am25pya@tdg^rxxz^)3zhb0kcok3g=@91j#%95oq&olk0%
     DEBUG=True
 
 ### Imagenes:
@@ -157,7 +157,7 @@ Para ello debemos de crear nustra carpeta static y media
     python manage.py migrate
 
 ## Carpetas:
- crear templates :agregar base y iondex html
+ crear templates :agregar base y index html
  Crear  static y media
 
 # ⋖⥐⋗○_⫷█░⫸Δ⋖_⋗》¬﹝⍨﹞⌐《⋖_⋗Δ⫷░█⫸_○⋖⥐⋗
