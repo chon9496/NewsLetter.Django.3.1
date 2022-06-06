@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static tailwind_tags %}
+
+<!-- ====== Hero Section Start -->
+<div id="profile"class="w-full lg:w-5/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-50 mx-9 lg:mx-0">
+
+    <div class="flex flex-wrap -mx-3">
+
+        <div class="w-full lg:w-5/12 px-5">
+
+            <div class="hero-content">
+
+                <h1 class=" font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[40px] leading-snug mb-3">
+                    CHON'S 
+                <br />
+                </h1>
+                <h2 class=" font-bold text-2xl sm:text-[42px] lg:text-[15px] xl:text-[35px] leading-snug mb-3">
+                    Bienvenido
+                <hr>
+                </h2>
+                <p class="text-base mb-8 text-body-color max-w-[480px]">
+                    Este sitio WEB se desarrollo con la ayuda de :<br />
+                    Framework Django.<br />
+                    Framework css Tailwind.<br />
+
+                <br />
+
+                <h2 class=" font-bold text-2xl sm:text-[42px] lg:text-[15px] xl:text-[30px] leading-snug mb-3">
+                    Detalles
+                <hr>
+                </h2>
+                pillow==9.1.0<br />
+                Django==4.0.4<br />
+                Django-environ==0.8.1<br />
+                Django-allauth==0.50.0<br />
+                Django-tailwind==2.3.0<br />
+                </p>
+
+                <hr>
+
+                <hr>
+
+
+                <p class="text-base mb-8 text-body-color max-w-[480px]">
+                </p>
+
+                <ul class="flex flex-wrap items-center">
+
+                    <li>
+                        <a href="#" class="bg-green-400 hover:bg-green-900  py-2 px-4 rounded-full">
+
+                            Contacteme
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" lg:block lg:w-1/12 px-4">
+
+        </div>
+
+        <div class="w-full lg:w-6/12 px-4 ">
+
+            <img src="{% static 'img/chon2.jpg' %}" alt="hero" />
+
+        </div>
+
+    </div>
+</div>
+<!-- ====== Hero Section End -->
+{% endblock content %}
